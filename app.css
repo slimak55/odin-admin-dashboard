@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(162, 162, 175);
+}
 .menu{
     background-color: rgb(14, 16, 56);
     color: white;
@@ -14,7 +17,46 @@
 .nav-link-c:hover{
     color: gray;
 }
+.search{
+    background-color: rgb(194, 194, 207);
+    border: 0px;
+    border-radius: 15px;
+    width:100%
+}
+.top{
+    background-color: white;
+    box-shadow: 0px 6px 23px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 6px 23px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 6px 23px -10px rgba(0,0,0,0.75);
+}
+.content{
+    margin-top: 9px;
+}
 
+.profile-pic{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.profile-pic-xl{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+
+.btn-main{
+    border: solid 0px rgb(14, 16, 56);
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(14, 16, 56);
+    padding: 10px 25px 10px 25px;
+}
+.btn-main{
+    border: solid 2px rgb(14, 16, 56) !important;
+}
 .grow{
     -webkit-transform: perspective(1px) translateZ(0);
     backface-visibility: hidden;
@@ -26,6 +68,6 @@
     transition-property: transform;
 }
 .grow:hover, .grow:focus, .grow:active{
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
